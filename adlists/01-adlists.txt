@@ -1,0 +1,27 @@
+# Custom adlists
+# Update: 2024-01-16
+
+# Full OISD Blocklist
+https://big.oisd.nl
+
+# WaLLy3k (firebog.net) Advertising Lists
+https://adaway.org/hosts.txt
+https://v.firebog.net/hosts/AdguardDNS.txt
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://v.firebog.net/hosts/Admiral.txt
+https://v.firebog.net/hosts/Prigent-Ads.txt
+https://v.firebog.net/hosts/Easylist.txt
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
+https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste

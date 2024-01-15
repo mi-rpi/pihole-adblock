@@ -1,0 +1,28 @@
+# Custom whitelist
+# Update: 2024-01-16
+
+# Bild
+www.bild.de
+m.bild.de
+cmp2.bild.de
+images.bild.de
+
+# Amazon
+aax-eu.amazon.de
+c.amazon-adsystem.com
+aax-eu-retail-direct.amazon-adsystem.com
+
+# Misc
+porndoe.com
+gdpr-tcfv2.sp-prod.net
+amp-api-edge.apps.apple.com
+graphql.instagram.com
+tracking.hermesworld.com
+marketing.net.idealo-partner.com
+parcel-api.delivery.hm.com
+tracking.asendia.com
+fota5p.adups.com
+dit.whatsapp.net
+loc.map.baidu.com
+ss3.4sqi.net
+e673.dscx.akamaiedge.net

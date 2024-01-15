@@ -1,0 +1,18 @@
+# https://discourse.pi-hole.net/t/commonly-whitelisted-domains
+# https://www.technoy.de/lists/whitelist.txt
+# Update: 2024-01-16
+
+[a-z]\.thumbs\.redditmedia\.com
+(.|^)redd\.it$
+(.|^)reddit\.com$
+^whatsapp-cdn-shv-[0-9]{2}-[a-z]{3}[0-9].fbcdn.net$
+^((www|(w[0-9].)?web|media((-[a-z]{3}|.[a-z]{4})[0-9]{1,2}-[0-9](.|-)(cdn|fna))?).)?whatsapp.(com|net)$
+(.|^)twimg\.com$
+(\.|^)storage\.googleapis\.com$
+(\.|^)gstatic\.com$
+(\.|^)cdn\.ampproject\.org$
+(\.|^)github\.io$
+(\.|^)githubapp\.com$
+(\.|^)github\.com$
+(\.|^)s3\.amazonaws\.com$
+(\.|^)cloudfront\.net$

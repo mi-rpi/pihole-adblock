@@ -1,0 +1,5 @@
+# Custom blacklist
+# Update: 2024-01-16
+
+cams.urlgalleries.net
+locale.roblox.com

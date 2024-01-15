@@ -1,0 +1,26 @@
+# Custom whitelist_regex
+# https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212/147
+# Update: 2024-01-16
+
+(\.|^)push\.apple\.com$
+(\.|^)business\.apple\.com$
+(\.|^)school\.apple\.com$
+(\.|^)itunes\.apple\.com$
+(\.|^)mzstatic\.com$
+(\.|^)vertexsmb\.com$
+(\.|^)apple-mapkit\.com$
+(\.|^)itunes\.apple\.com$
+(\.|^)apps\.apple\.com$
+(\.|^)mzstatic\.com$
+(\.|^)appattest\.apple\.com$
+(\.|^)apple-cloudkit\.com$
+(\.|^)apple-livephotoskit\.com$
+(\.|^)apzones\.com$
+(\.|^)cdn-apple\.com$
+(\.|^)gc\.apple\.com$
+(\.|^)icloud\.com$
+(\.|^)icloud\.com$\.cn
+(\.|^)icloud\.apple\.com$
+(\.|^)icloud-content\.com$
+(\.|^)iwork\.apple\.com$
+(\.|^)smoot\.apple\.com$

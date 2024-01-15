@@ -1,0 +1,811 @@
+# https://discourse.pi-hole.net/t/commonly-whitelisted-domains
+# https://www.technoy.de/lists/whitelist.txt
+# Update: 2024-01-16
+
+# Google
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+drive.google.com
+dl.google.com
+chrome.google.com
+script.google.com
+cse.google.com
+instantmessaging-pa.googleapis.com
+appsbackup-pa.clients6.google.com
+appsbackup-pa.googleapis.com
+manifest.googlevideo.com
+redirector.googlevideo.com
+www.googleapis.com
+www.youtube-nocookie.com
+youtu.be
+appspot-preview.l.google.com
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+redirector.gvt1.com
+webcache.googleusercontent.com
+
+# YouTube History
+s.youtube.com
+video-stats.l.google.com
+video-stats.video.google.com
+studio.youtube.com
+s.ytimg.com
+i1.ytimg.com
+i.ytimg.com
+s2.youtube.com
+
+# YouTube App for iOS
+youtubei.googleapis.com
+oauthaccountmanager.googleapis.com
+
+# Google Play
+play.google.com
+android.clients.google.com
+0.client-channel.google.com
+2.android.pool.ntp.org
+
+# Google Keep
+reminders-pa.googleapis.com
+firestore.googleapis.com
+
+# Google Fonts
+gstaticadssl.l.google.com
+
+# Gmail (Google Mail)
+googleapis.l.google.com
+
+# Windows 10 Updates
+a-msedge.net
+slscr.update.microsoft.com
+v10.vortex-win.data.microsoft.com
+settings-win.data.microsoft.com
+wdcp.microsoft.com
+sls.update.microsoft.com
+dl.delivery.mp.microsoft.com
+ctldl.windowsupdate.com
+displaycatalog.mp.microsoft.com
+sls.update.microsoft.com.akadns.net
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+tlu.dl.delivery.mp.microsoft.com
+
+# Windows 10 uses this to verify connectivity to Internet
+www.msftncsi.com
+msftncsi.com
+www.msftconnecttest.com
+ipv6.msftncsi.com
+dns.msftncsi.com
+
+# Microsoft Web Pages (Outlook, Office365, Live,Microsoft.com)
+outlook.office365.com
+products.office.com
+c.s-microsoft.com
+i.s-microsoft.com
+login.live.com
+login.microsoftonline.com
+onedrive.live.com
+aka.ms
+forms.office.com
+mobile.pipe.aria.microsoft.com
+browser.events.data.microsoft.com
+nexusrules.officeapps.live.com
+office.com
+office.net
+office365.com
+officeclient.microsoft.com
+outlook.live.com
+s.gateway.messenger.live.com
+
+# Backup Bitlocker recovery Key zu Microsoft
+g.live.com
+
+# Microsoft Store (Windows Store)
+geo-prod.do.dsp.mp.microsoft.com
+
+# Microsoft Edge Browser Update
+msedge.api.cdp.microsoft.com
+
+# Xbox Live
+clientconfig.passport.net
+
+# Xbox Live Achievements (confirmed by Microsoft)
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+
+# Xbox Live Messaging
+client-s.gateway.messenger.live.com
+
+# Store App on Series X/S
+arc.msn.com
+
+# EA Play on Xbox
+activity.windows.com
+
+# Full functionality required by Xbox Live
+xbox.ipv6.microsoft.com
+device.auth.xboxlive.com
+title.mgt.xboxlive.com
+xsts.auth.xboxlive.com
+title.auth.xboxlive.com
+attestation.xboxlive.com
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com
+cert.mgt.xboxlife.com
+xkms.xboxlive.com
+def-vef.xboxlive.com
+notify.xboxlive.com
+help.ui.xboxlive.com
+licensing.xboxlive.com
+eds.xboxlive.com
+www.xboxlive.com
+
+# Skype
+ui.skype.com
+pricelist.skype.com
+apps.skype.com
+m.hotmail.com
+sa.symcb.com
+s1.symcb.com
+s2.symcb.com
+s3.symcb.com
+s4.symcb.com
+s5.symcb.com
+
+# Bing Maps Platform
+dev.virtualearth.net
+ecn.dev.virtualearth.net
+t0.ssl.ak.dynamic.tiles.virtualearth.net
+t0.ssl.ak.tiles.virtualearth.net
+
+# Apple Music
+itunes.apple.com
+s.mzstatic.com
+
+# Apple ID
+appleid.apple.com
+
+# iOS Weather app
+gsp-ssl.ls.apple.com
+gsp-ssl.ls-apple.com.akadns.net
+
+# iOS/Apple
+captive.apple.com
+gsp1.apple.com
+www.apple.com
+www.appleiphonecell.com
+ax.phobos.apple.com.edgesuite.net
+ocsp.apple.com
+albert.apple.com
+gs.apple.com
+humb.apple.com
+static.ips.apple.com
+tbsc.apple.com
+time-ios.apple.com
+time.apple.com
+appldnld.apple.com
+gg.apple.com
+gnf-mdn.apple.com
+gnf-mr.apple.com
+ig.apple.com
+mesu.apple.com
+ns.itunes.apple.com
+oscdn.apple.com
+osrecovery.apple.com
+skl.apple.com
+swcdn.apple.com
+swdist.apple.com
+swdownload.apple.com
+swpost.apple.com
+swscan.apple.com
+updates-http.cdn-apple.com
+updates.cdn-apple.com
+xp.apple.com
+ppq.apple.com
+lcdn-registration.apple.com
+crl.apple.com
+crl.entrust.net
+crl3.digicert.com
+crl4.digicert.com
+ocsp.digicert.com
+ocsp.entrust.net
+ocsp.verisign.net
+gdmf.apple.com
+deviceenrollment.apple.com
+deviceservices-external.apple.com
+identity.apple.com
+iprofiles.apple.com
+mdmenrollment.apple.com
+setup.icloud.com
+vpp.itunes.apple.com
+
+# Nvidia
+gfwsl.geforce.com
+events.gfe.nvidia.com
+ota-downloads.nvidia.com
+
+# Samsung
+cdn.samsungcloudsolution.com
+
+# Canon
+gdlp01.c-wss.com
+
+# Link Shortner
+www.bit.ly
+bit.ly
+ow.ly
+tinyurl.com
+adfoc.us
+adf.ly
+www.adf.ly
+goo.gl
+www.ow.ly
+amzn.to
+amzn.com
+
+# Dropbox
+dl.dropboxusercontent.com
+ns1.dropbox.com
+ns2.dropbox.com
+dl.dropbox.com
+
+# Spiegel.de
+sourcepoint.mgr.consensu.org
+spiegel-de.spiegel.de
+fsm2.spiegel.de
+
+# coinbase.com
+www.coinbase.com
+assets.coinbase.com
+dynamic-assets.coinbase.com
+static-assets.coinbase.com
+images.ctfassets.net
+api.userleap.com
+exceptions.coinbase.com
+events-service.coinbase.com
+sessions.coinbase.com
+images.coinbase.com
+
+# www.blogads.com
+www.blogads.com
+
+# Cookiebot
+www.cookiebot.com
+
+# NameCheap.com
+www.namecheap.com
+
+# Uber
+email.uber.com
+uber.com
+
+# Referral Sites
+m.exactag.com
+mydealz.digidip.net
+www.awin1.com
+zenaps.com
+7eer.net
+affiliatefuture.com
+anrdoezrs.net
+apmebf.com
+avantlink.com
+bfast.com
+partners.webmasterplan.com
+clk.tradedoubler.com
+clickserve.dartsearch.net
+track.webgains.com
+track.adform.net
+bnrs-engine.shoop.de
+shoopde.engine.adglare.net
+www.dwin1.com
+bnrs-cdn.shoop.de
+shoopde.cdn.adglare.net
+go.redirectingat.com
+api.smartredirect.com
+apiservices.krxd.net
+app.adjust.com
+ad.doubleclick.net
+cc-dt.com
+cj.com
+cj.dotomi.com
+clickserve.cc-dt.com
+commission-junction.com
+doubleclick.net
+dpbolvw.net
+emjcd.com
+evyy.net
+gan.doubleclick.net
+go2jump.org
+gopjn.com
+jdoqocy.com
+kqzyfj.com
+linksynergy.com
+ojrq.net
+onenetworkdirect.net
+pjatr.com
+pjtra.com
+pntra.com
+pntrac.com
+pntrack.com
+qksrv.net
+redirect.at
+redirect.viglink.com
+redirectingat.com
+shareasale.com
+tkqlhce.com
+www.7eer.net
+www.affiliatefuture.com
+www.anrdoezrs.net
+www.apmebf.com
+www.avantlink.com
+www.bfast.com
+www.cc-dt.com
+www.cj.com
+www.doubleclick.net
+www.dpbolvw.net
+www.emjcd.com
+www.evyy.net
+www.gopjn.com
+www.jdoqocy.com
+www.kqzyfj.com
+www.linksynergy.com
+www.ojrq.net
+www.onenetworkdirect.net
+www.pjatr.com
+www.pjtra.com
+www.pntra.com
+www.pntrac.com
+www.pntrack.com
+www.qksrv.net
+www.tkqlhce.com
+tradetracker.net
+www.tradetracker.net
+click.linksynergy.com
+tc.tradetracker.com
+ad.atdmt.com
+5231.xg4ken.com
+shareasale-analytics.com
+go.skimresources.com
+
+# Bild.de
+ec-ns.sascdn.com
+cdn1.smartadserver.com
+acdn.adnxs.com
+www.asadcdn.com
+code.bildstatic.de
+de.ioam.de
+json.bild.de
+script.ioam.de
+tags.tiqcdn.com
+tagger.opecloud.com
+
+# Facebook, Facebook Messenger
+upload.facebook.com
+creative.ak.fbcdn.net
+external-lhr0-1.xx.fbcdn.net
+external-lhr1-1.xx.fbcdn.net
+external-lhr10-1.xx.fbcdn.net
+external-lhr2-1.xx.fbcdn.net
+external-lhr3-1.xx.fbcdn.net
+external-lhr4-1.xx.fbcdn.net
+external-lhr5-1.xx.fbcdn.net
+external-lhr6-1.xx.fbcdn.net
+external-lhr7-1.xx.fbcdn.net
+external-lhr8-1.xx.fbcdn.net
+external-lhr9-1.xx.fbcdn.net
+fbcdn-creative-a.akamaihd.net
+scontent-lhr3-1.xx.fbcdn.net
+scontent.xx.fbcdn.net
+scontent.fgdl5-1.fna.fbcdn.net
+graph.facebook.com
+b-graph.facebook.com
+connect.facebook.com
+cdn.fbsbx.com
+api.facebook.com
+edge-mqtt.facebook.com
+mqtt.c10r.facebook.com
+portal.fb.com
+star.c10r.facebook.com
+star-mini.c10r.facebook.com
+b-api.facebook.com
+fb.me
+bigzipfiles.facebook.com
+l.facebook.com
+www.facebook.com
+scontent-atl3-1.xx.fbcdn.net
+static.xx.fbcdn.net
+edge-chat.messenger.com
+video.xx.fbcdn.net
+external-ort2-1.xx.fbcdn.net
+scontent-ort2-1.xx.fbcdn.net
+edge-chat.facebook.com
+scontent-mia3-1.xx.fbcdn.net
+web.facebook.com
+rupload.facebook.com
+l.messenger.com
+mmqtt.c10r.facebook.com
+fgdl5-1.fna.fbcdn.net
+
+# Facebook/Instagram and Facebook Messenger
+# https://raw.githubusercontent.com/hagezi/dns-data-collection/main/share/facebook.txt
+b-graph-fallback.facebook.com
+star.fallback.c10r.facebook.com
+connect.facebook.net
+graph-fallback.facebook.com
+z-m-graph.facebook.com
+graph.fbpigeon.com
+graph.instagram.com
+graph-fallback.instagram.com
+graph.whatsapp.com
+graph.whatsapp.net
+mqtt-mini.facebook.com
+
+# DirectTV
+directvnow.com
+directvapplications.hb.omtrdc.net
+s.zkcdn.net
+js.maxmind.com
+
+# Twitter
+analytics.twitter.com
+pbs.twimg.com
+cdn.syndication.twimg.com
+t.co
+platform.twitter.com
+syndication.twitter.com
+
+# Ebay
+srv.de.ebayrtm.com
+gha.ebay.de
+pulsar.ebay.de
+rover.ebay.com
+
+# Github
+alive.github.com
+collector-cdn.github.com
+pivotal.github.com
+collector.githubapp.com
+gist.githubusercontent.com
+hubspot.com
+github.hubspot.com
+githubusercontent.com
+raw.githubusercontent.com
+gitter.im
+
+# giphy.com
+giphy.com
+
+# Mozilla
+addons.mozilla.org
+tracking-protection.cdn.mozilla.net
+
+# TheMoneytizer Admin
+de.themoneytizer.com
+www.themoneytizer.com
+es.themoneytizer.com
+pt.themoneytizer.com
+it.themoneytizer.com
+ru.themoneytizer.com
+us.themoneytizer.com
+
+# Reddit
+alb.reddit.com
+click.redditmail.com
+styles.redditmedia.com
+www.redditstatic.com
+reddit.map.fastly.net
+www.redditmedia.com
+reddit-uploaded-media.s3-accelerate.amazonaws.com
+
+# Tracking Packages sent with DPD
+tracking.dpd.de
+
+# WhatsApp
+wa.me
+www.wa.me
+
+# Signal
+ud-chat.signal.org
+chat.signal.org
+storage.signal.org
+signal.org
+www.signal.org
+updates2.signal.org
+textsecure-service-whispersystems.org
+giphy-proxy-production.whispersystems.org
+cdn.signal.org
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
+d83eunklitikj.cloudfront.net
+souqcdn.com
+cms.souqcdn.com
+api.directory.signal.org
+contentproxy.signal.org
+turn1.whispersystems.org
+
+# Twitter
+twitter.com
+upload.twitter.com
+api.twitter.com
+mobile.twitter.com
+
+# Bank TSB Mobile
+h-sdk.online-metrix.net
+check2.tsb.co.uk
+
+# Citizen Bank
+p11.techlab-cdn.com
+
+# Burger King
+appboy-images.com
+rest.iad-03.braze.com
+
+# Punchh (Farmer Boys, El Pollo Loco, Capriotti's, etc.)
+mobileandroidapi.punchh.com
+
+# Envato Market
+1.envato.market
+assets.banners.envato-static.com
+codecanyon.img.customer.envatousercontent.com
+
+# ARD Mediathek
+image.ard.de
+
+# Shopify
+cdn.shopify.com
+
+# Jimdo
+logo.e.jimdo.com
+
+# Sourceforge
+sourceforge.net
+
+# Adobe
+assets.adobedtm.com
+
+# Pinterest
+www.pinterest.
+accounts.pinterest.com
+i.pinimg.com
+analytics.pinterest.com
+post.pinterest.com
+
+# Shopping
+de.redbrain.shop
+
+# Wordpress (Automattic)
+s0.wp.com
+s1.wp.com
+s2.wp.com
+i0.wp.com
+i2.wp.com
+wp.com
+
+# hackaday.com
+hackaday.com
+hackadaycom.files.wordpress.com
+use.typekit.net
+p.typekit.net
+search.supplyframe.com
+
+# GoDaddy
+imagesak.secureserver.net
+
+# WatchESPN
+fpdownload.adobe.com
+entitlement.auth.adobe.com
+livepassdl.conviva.com
+
+# Videos: Times.com /nydailynews.com / cnn App Images
+delivery.vidible.tv
+img.vidible.tv
+videos.vidible.tv
+edge.api.brightcove.com
+cdn.vidible.tv
+dynaimage.cdn.turner.com
+
+# Red Hat Online Learning
+79423.analytics.edgekey.net
+
+# Twich
+s.amazon-adsystem.com
+c.amazon-adsystem.com
+countess.twitch.tv
+pubsub-edge.twitch.tv
+cdn-gl.imrworldwide.com
+
+# Weather.com
+v.w-x.co
+
+# Kickstarter
+www.kickstarter.com
+static.kickstarter.com
+
+# No-IP
+www.no-ip.com
+dynupdate.no-ip.com
+
+# Snapchat
+app-analytics.snapchat.com
+
+# Sonarr
+apt.sonarr.tv
+download.sonarr.tv
+forums.sonarr.tv
+services.sonarr.tv
+skyhook.sonarr.tv
+
+# Adobe licence verification endpoints
+lm.licenses.adobe.com
+activate.adobe.com
+
+# streamelements.com (Blocked by Pi-hole regex)
+stats.streamelements.com
+
+# Nest Doorbell
+nexus.dropcam.com
+oculus4395-us1.dropcam.com
+
+# Amazon
+s3.amazonaws.com
+s3-eu-west-1.amazonaws.com
+fls-eu.amazon.com
+amazonaws.com
+mas-sdk.amazon.com
+cloudfront.net
+d2c8v52ll5s99u.cloudfront.net
+d2gatte9o95jao.cloudfront.net
+
+# Jsdelivr
+cdn.jsdelivr.net
+www.jqueryscript.net
+
+# optimizely
+cdn.optimizely.com
+cdn2.optimizely.com
+cdn3.optimizely.com
+cdn.embedly.com
+
+# Cloudflare
+cdnjs.cloudflare.com
+cloudflare.com
+info.cloudflare.com
+cdn.cloudflare.net
+
+# Akamai
+akamaihd.net
+akamaitechnologies.com
+akamaized.net
+videocdn-sbs.akamaized.net
+sbsvodns-vh.akamaihd.net
+e7065.e2.akamaiedge.net
+a463.w10.akamai.net
+a790.w16.akamai.net
+
+# Ubisoft
+ubisoft-uplay-savegames.s3.amazonaws.com
+
+# Grand Theft Auto V Online PC
+prod.telemetry.ros.rockstargames.com
+
+# HayDay (Handyspiel)
+game-assets.haydaygame.com
+game.haydaygame.com
+
+# Epic Games Store
+tracking.epicgames.com
+
+# EA/Origin
+s.shopify.com
+proxy.novafusion.ea.com
+api1.origin.com
+heartbeat.dm.origin.com
+ea.com
+
+# Sony/Playstation
+account.np.ac.playstation.net
+smetrics.aem.playstation.com
+telemetry-console.api.playstation.com
+
+# Spotify
+spclient.wg.spotify.com
+apresolve.spotify.com
+mobile-ap.spotify.com
+market.spotify.com
+open.spotify.com
+wl.spotify.com
+api-tv.spotify.com
+upgrade.scdn.com
+audio-ake.spotify.com.edgesuite.net
+
+# Netflix
+ichnaea.netflix.com
+appboot.netflix.com
+api-global.netflix.com
+netflix.com
+
+# Disney+
+sanalytics.disneyplus.com
+fkp.samsungcloudsolution.com
+global.edge.bamgrid.com
+bamtech.sc.omtrdc.net
+prod-static.disney-plus.net
+bam-sdk-configs.bamgrid.com
+cdn.registerdisney.go.com
+content.global.edge.bamgrid.com
+prod-ripcut-delivery.disney-plus.net
+
+# Adult Swim Videos on Amazon Firestick
+pmd.cdn.turner.com
+i.cdn.turner.com
+s.cdn.turner.com
+z.cdn.turner.com
+amd.cdn.turner.com
+
+# Samsung TV's Amazon Prime Video app
+time.samsungcloudsolution.com
+
+# Plex.tv
+plex.tv
+tvdb2.plex.tv
+pubsub.plex.bz
+proxy.plex.bz
+proxy02.pop.plex.bz
+cpms.spop10.ams.plex.bz
+meta-db-worker02.pop.ric.plex.bz
+meta.plex.bz
+tvthemes.plexapp.com.cdn.cloudflare.net
+tvthemes.plexapp.com
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
+meta.plex.tv
+cpms35.spop10.ams.plex.bz
+proxy.plex.tv
+metrics.plex.tv
+pubsub.plex.tv
+status.plex.tv
+www.plex.tv
+node.plexapp.com
+nine.plugins.plexapp.com
+staging.plex.tv
+app.plex.tv
+o1.email.plex.tv
+o2.sg0.plex.tv
+dashboard.plex.tv
+gravatar.com
+thetvdb.com
+themoviedb.com
+chtbl.com
+
+# https://peters-christoph.de/blog/pihole-blocklists/
+activation.sls.microsoft.com
+microsoft.com
+presence.teams.microsoft.com
+skydrivesync.policies.live.net
+support.microsoft.com
+fe2cr.update.microsoft.com
+answers.microsoft.com
+download.windowsupdate.com
+fe3cr.delivery.mp.microsoft.com
+au.download.windowsupdate.com
+maps.gstatic.com
+api.pinterest.com
+s3-1-w.amazonaws.com
+fls-na.amazon.com
+fls-eu.amazon.de
+kreditkarten-banking.lbb.de
+track.aliexpress.com
+feedback.aliexpress.com
+assets.alicdn.com
+msg.aliexpress.com
+g.alicdn.com
+i.alicdn.com
+ae01.alicdn.com
+login.aliexpress.com
+img.alicdn.com
+www.alibaba.com
+us.ynuf.aliapp.org
+u.alicdn.com
+message.alibaba.com
+aliexpress.com
+www.aliexpress.com
+de.aliexpress.com

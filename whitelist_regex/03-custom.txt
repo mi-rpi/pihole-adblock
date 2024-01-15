@@ -1,0 +1,24 @@
+# Custom whitelist_regex
+# Update: 2024-01-16
+
+# Amazon Referral Links
+aax-.*-retail-direct\.amazon\.com
+aax-.*-retail-direct\.amazon-adsystem\.com
+aax.*\.amazon\.cn
+aax.*\.amazon\.com
+aax-eu\.amazon\..*
+aax-fe\.amazon\..*
+assoc-redirect\.amazon\..*
+
+# Amazon Alexa and Amazon Shopping app
+device-metrics-.*-2\.amazon\.com
+device-metrics-.*\.amazon\.com
+
+# Misc
+(\.|^)urlgalleries\.net$
+(\.|^)faronics\.com$
+(\.|^)googleadservices\.com$
+(\.|^)divolt\.xyz$
+(\.|^)zeroupload\.xyz$
+(\.|^)app-measurement\.com$
+(\.|^)kaotic\.com$
