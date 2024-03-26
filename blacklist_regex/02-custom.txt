@@ -147,3 +147,10 @@
 (\.|^)zoxok\.com$
 (\.|^)stumbleguys\.com$
 (\.|^)rbxcdn\.com$
+(\.|^)steamstatic\.com$
+(\.|^)steampowered\.com$
+(\.|^)steamcommunity\.com$
+(\.|^)wargaming\.net$
+(\.|^)wotblitz\.eu$
+(\.|^)gamegrids\.net$
+(\.|^)gcdn\.co$

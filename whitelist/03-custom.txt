@@ -6,11 +6,15 @@ www.bild.de
 m.bild.de
 cmp2.bild.de
 images.bild.de
+ast.bild.de
 
 # Amazon
 aax-eu.amazon.de
 c.amazon-adsystem.com
 aax-eu-retail-direct.amazon-adsystem.com
+
+# Ebay
+apisd.ebay.com
 
 # Misc
 porndoe.com
