@@ -75,7 +75,7 @@ cat << EOF | tee /etc/pihole-updatelists.conf
 ADLISTS_URL="${ADLISTS_URL[@]}"
 
 ; Remote list URL containing exact domains to whitelist
-WHITELIST_URL="https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt ${WHITELIST_URL[@]}"
+WHITELIST_URL="https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt ${WHITELIST_URL[@]}"
 
 ; Remote list URL containing regex rules for whitelisting
 REGEX_WHITELIST_URL="${REGEX_WHITELIST_URL[@]}"
